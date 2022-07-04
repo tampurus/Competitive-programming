@@ -13,7 +13,7 @@ public:
         for(i=0 ; i<n ; i++){
             for(j=0 ; j<n ; j++){
                 sum = 0;
-                for(k=i ; k<=n-j ; k++){
+                for(k=i ; k<n-j ; k++){
                     sum+=nums[k];
                 }
                 ans = max(ans,sum);
